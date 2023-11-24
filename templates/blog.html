@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+
+{% if section.title == "TIL" %}
+<p>
+    The reason behind creating this space is to document my learnings. They could either be tech related or not. Mostly the posts written
+    here are personal opinions and shouldn't be used as facts. Please point out in case you find something wrong, I also try to add as many references
+    as possible so you can get the idea behind the research I've done to form an opinion. Most of them are just ramblings so please treat them as it is.
+</p>
+{% endif %}
+
+{% for year, posts in section.pages | group_by(attribute="year") %}
+<ul class="posts flat">
+    <h2 class="archive-year">{{ year }}</h2>
+    {% for post in posts %}
+    <li class="post">
+        <div class="post-header">
+            <div class="meta">
+                <div class="date">
+                    <span class="day">{{ post.day }}</span>
+                    <span class="rest">{{ post.date | date(format='%B') }}</span>
+                </div>
+            </div>
+            <div class="matter">
+                <h4 class="title small">
+                    <a href="{{ post.permalink | safe }}">{{ post.title }}</a>
+                </h4>
+                <span class="description">
+                    {{post.description}}
+                </span>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+{% endblock content %}
