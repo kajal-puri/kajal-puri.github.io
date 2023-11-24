@@ -2,7 +2,7 @@
 
 Built with [Zola](https://www.getzola.org/)
 
-Theme: [hugo-ink](https://github.com/knadh/hugo-ink). Ported to Zola by [mr-karan](https://github.com/mr-karan)
+Theme: [hugo-ink](https://github.com/knadh/hugo-ink).
 
 ## Setup
 ---
@@ -12,8 +12,8 @@ Install [Zola](https://www.getzola.org/documentation/getting-started/installatio
 
 ### Local development
 ```
-git clone https://github.com/nvinayvarma189/nvinayvarma189.github.io.git
-cd nvinayvarma189.github.io/
+git clone https://github.com/kajal-puri/kajal-puri.github.io
+cd kajal-puri.github.io/
 zola build
 zola serve
 ```
