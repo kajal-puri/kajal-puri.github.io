@@ -1,4 +1,14 @@
-# Applying to RC : Begining of my Recursion Stack
++++
+title = "Applying to RC : Begining of my Recursion Stack"
+date = 2025-06-29
+updated = 2025-06-29
+type = "post"
+description = "documenting my journey and plans for RC"
+in_search_index = true
+[taxonomies]
+Blog-Tags = ["recurse", "techh", "programming"]
++++
+
 
 ## Why RC?
 After moving from Munich to Seattle in early 2025, I've been on a career break, using the time to prepare for interviews, work on side projects, and learn new things. I've followed several RC alums, especially [Julia Evans](https://jvns.ca/blog/2020/11/05/i-m-doing-another-recurse-center-batch-/), for quite a while and have always dreamt of pursuing an experience like this.
