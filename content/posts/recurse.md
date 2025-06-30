@@ -6,7 +6,7 @@ type = "post"
 description = "documenting my journey and plans for RC"
 in_search_index = true
 [taxonomies]
-Blog-Tags = ["recurse", "techh", "programming"]
+Blog-Tags = ["recurse", "tech", "programming"]
 +++
 
 
