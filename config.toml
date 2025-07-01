@@ -56,10 +56,6 @@ taxonomies = [
     {name = "Blog-Tags", lang = "en", rss = true},
     {name = "TIL-Tags", lang = "en", rss = true},
 ]
-
-# A list of directories used to search for additional `.sublime-syntax` files.
-extra_syntaxes = []
-
 # When set to "true", a search index is built from the pages and section
 # content for `default_language`.
 build_search_index = true
@@ -76,6 +72,9 @@ highlight_theme = "boron"
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
 render_emoji = true
+
+# A list of directories used to search for additional `.sublime-syntax` files.
+extra_syntaxes_and_themes = []
 
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
