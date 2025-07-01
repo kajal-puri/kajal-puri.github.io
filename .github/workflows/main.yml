@@ -5,16 +5,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v4
-      
-      - name: Build and Deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@master
         env:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
