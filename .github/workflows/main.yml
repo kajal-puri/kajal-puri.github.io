@@ -12,20 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       
-      - name: Setup Zola
-        uses: getzola/action@v0.1.0
-        with:
-          zola-version: latest
-      
-      - name: Build
-        run: zola build
-      
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          force_orphan: true
+      - name: Build and Deploy
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
