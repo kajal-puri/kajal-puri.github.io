@@ -1,5 +1,5 @@
 +++
-title = "Applying to RC : Begining of my Recursion Stack"
+title = "Applying to RC : Beginning of my Recursion Stack"
 date = 2025-06-29
 updated = 2025-06-29
 type = "post"
