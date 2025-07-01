@@ -43,4 +43,5 @@ So, I don't have a concrete plan to do a specific thing during my time at RC. Bu
 - Completing the **HuggingFace AI Agent** course and then building my own agent sidekick.
 
 ## What after RC?
-Given the challenging job market in the US, my plan is to begin my job search immediately after concluding my time at RC in a couple of months. Towards the end of my program, I'll also dedicate time to resume my preparation for System Design and LeetCode.
+Given the challenging job market in the US, my plan is to begin my job search immediately after concluding my time at RC in a couple of months. Towards the end of my program, I'll also dedicate time to resume my preparation for ML and Software System Design along with LeetCode.
+
