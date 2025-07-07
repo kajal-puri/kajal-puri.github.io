@@ -28,8 +28,6 @@ Blog-Tags = ["recurse", "tech", "programming"]
 
 ## "How to build your Volition Muscles" : Workshop Notes
 
-# My Volition Muscles: Week 1 Goals
-
 Did the “Build Your Volition Muscles” workshop this week — we jotted down ideas, dug into the “why,” and sorted them by priority. Here’s where I landed for Week 1. Curious to see how these shift as I go.
 
 **P0:** Stuff I should be moving on right now.  
@@ -38,7 +36,7 @@ Did the “Build Your Volition Muscles” workshop this week — we jotted down 
 
 | Idea                                                            | Why (Reasoning)                                                     | Priority Bucket |
 | :-------------------------------------------------------------- | :------------------------------------------------------------------ | :-------------- |
-| Complete UC-Berkeley LLM for agents course                     | I want to get solid at building actual agents, not just toy demos.  | P1              |
+| Complete UC-Berkeley LLM for agents course                      | I want to get solid at building actual agents, not just toy demos.  | P1              |
 | Complete CS-336                                                 | Feels like a must-have if I want a deep grasp of LLM internals.     | P0              |
 | Finish *AI Engineering* by Chip Huyen                           | This has been on my list forever — time to finally dig in properly. | P0              |
 | Complete zero-to-hero course                                    | To fill in any gaps and see another perspective on LLMs.            | P2              |
