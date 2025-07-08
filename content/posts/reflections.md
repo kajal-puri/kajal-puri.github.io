@@ -1,5 +1,5 @@
 +++
-title = "Reflections on completing my first week @ RC"
+title = "Reflections on completing my 1st week @ RC"
 date = 2025-07-06
 updated = 2025-07-06
 type = "post"
